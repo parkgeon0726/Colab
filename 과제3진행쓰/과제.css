@@ -1,0 +1,74 @@
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      display: grid;
+      grid-template-rows: auto 1fr auto;
+      grid-template-columns: 1fr;
+      min-height: 100vh;
+      background: white;
+    }
+    header, footer {
+      background: rgb(18, 168, 228);
+      text-align: center;
+      padding: 1rem;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+    }
+    main {
+      display: grid;
+      grid-template-columns: 1.1fr 1.9fr;
+      gap: 2rem;
+      padding: 2rem;
+    }
+
+
+    .sec1 {
+      background: rgb(79, 204, 125);
+      padding: 2rem;
+      display: grid;
+      grid-template-rows: auto auto;
+      gap: 1.5rem; 
+    }
+    .pro1 {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+    .pro1 img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+    .pro1 .pro2 {
+      display: flex;
+      flex-direction: column;
+      gap: 0.3rem;
+    }
+    .pro3 {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+    
+
+    .sec2 {
+      background: rgb(156, 135, 135);
+      padding: 2rem;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+    .skill, .project, .attitude{
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+    .skill span, .project span {
+      background: rgb(230, 246, 10);
+      padding: 0.4rem 0.8rem;
+      border-radius: 4px;
+      font-size: 0.85rem;
+    }
+
