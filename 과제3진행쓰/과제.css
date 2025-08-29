@@ -5,11 +5,11 @@ body {
   grid-template-rows: auto 1fr auto;
   grid-template-columns: 1fr;
   min-height: 100vh;
-  background: rgb(240, 244, 248); /* 연한 회청색 */
+  background: rgb(240, 244, 248); 
 }
 
 header, footer {
-  background: rgb(70, 130, 180); /* 부드러운 스틸블루 */
+  background: rgb(70, 130, 180); 
   text-align: center;
   padding: 1rem;
   box-shadow: 0 1px 4px rgba(0,0,0,0.1);
@@ -23,7 +23,7 @@ main {
 }
 
 .sec1 {
-  background: rgb(248, 250, 252); /* 아이보리 화이트 */
+  background: rgb(248, 250, 252);
   padding: 2rem;
   display: grid;
   justify-items: center;
@@ -60,7 +60,7 @@ main {
 
 .sec2 {
   font-size: 1.3rem;
-  background: rgb(230, 237, 243); /* 연한 청회색 */
+  background: rgb(230, 237, 243);
   padding: 2rem;
   display: flex;
   flex-direction: column;
@@ -74,7 +74,7 @@ main {
 }
 
 .skill span, .project span {
-  background: rgb(100, 149, 237); /* 코넥트 블루 */
+  background: rgb(100, 149, 237);
   color: white;
   padding: 0.5rem 1rem;
   border-radius: 4px;
